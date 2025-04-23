@@ -1,0 +1,12 @@
+let input = prompt("ใส่ตัวเลข:");
+let number = Number(input);
+
+if (isNaN(number) || input === '' || input == null) {
+  console.log("Invalid number");
+} else if (number > 0) {
+  console.log("Positive number");
+} else if (number === 0) {
+  console.log("Zero"); 
+} else {
+  console.log("Negative number");
+}
