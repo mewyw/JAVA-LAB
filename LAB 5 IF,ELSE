@@ -1,0 +1,12 @@
+let input = prompt("ใส่ตัวเลข:");
+let number = Number(input);
+
+if (isNaN(number) || 
+input.trim() === '' || 
+input.trim() === null) {
+  console.log("Invalid number");
+} else if(number % 2 === 0) {
+  console.log("Even number");
+} else {
+  console.log("Odd number");
+}
