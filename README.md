@@ -1,1 +1,1 @@
-# JAVA-LAB
+# JS-LAB
